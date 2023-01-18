@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            position: absolute;
+            left: 50px;
+            top: 0px;
+            bottom: 50px;
+            right: 50px;
+            background-color: rgba(0, 255, 255, 0.846);
+        }
+        /* The #container is offset by 0px from the top and 50px from the other edges. 
+        Even though the <p> element and its text comes before the container, the container covers the text because it is absolutely 
+        positioned ie independent of normal document flow.
+        */
+
+        
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni harum laudantium placeat nulla suscipit illo ea quo 
+        dolorem, inventore, quis atque error, aperiam ipsam sunt minima iure voluptas pariatur dignissimos.</p>
+    <div id="container">
+    </div>
+</body>
+</html>
